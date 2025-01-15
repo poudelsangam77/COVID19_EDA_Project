@@ -34,10 +34,25 @@ This project utilizes COVID-19 datasets from various reliable sources like:
 
 ## Folder Structure
 
+
 The project structure is organized as follows:
 
-'''
-COVID19_EDA_Project/ ├── data/ │ ├── raw/ # Raw data files (unprocessed, original datasets) │ └── processed/ # Cleaned data files (after pre-processing and transformation) ├── notebooks/ │ ├── data_cleaning.ipynb # Notebook for cleaning raw data │ ├── exploratory_analysis.ipynb # Notebook for exploratory analysis and insights │ └── visualizations.ipynb # Notebook for generating visualizations like plots and graphs ├── dashboard/ # (Optional) Files for building interactive visualizations using Dash ├── reports/ │ └── visuals/ # Saved visualizations for reports and presentations (e.g., PNG, PDF) ├── .gitignore # Git ignore file to exclude unnecessary files and directories from version control ├── LICENSE # License file to define terms for project usage and distribution ├── README.md # Project documentation (this file) └── requirements.txt # List of required Python dependencies for the project '''
+```bash
+COVID19_EDA_Project/
+├── data/
+│   ├── raw/               
+│   └── processed/        
+├── notebooks/
+│   ├── data_cleaning.ipynb   
+│   ├── exploratory_analysis.ipynb  
+│   └── visualizations.ipynb  
+├── dashboard/               
+├── reports/
+│   └── visuals/            
+├── .gitignore               
+├── LICENSE                  
+├── README.md                
+└── requirements.txt         
 
 
 
