@@ -36,21 +36,9 @@ This project utilizes COVID-19 datasets from various reliable sources like:
 
 The project structure is organized as follows:
 
-COVID19_EDA_Project/
-├── data/                     
-│   ├── raw/               # Raw data files
-│   └── processed/         # Cleaned data files
-├── notebooks/              
-│   ├── data_cleaning.ipynb   # Notebook for cleaning data
-│   ├── exploratory_analysis.ipynb  # Notebook for exploratory analysis
-│   └── visualizations.ipynb  # Notebook for generating visualizations
-├── dashboard/               # (Optional) Dash app files for interactive visualizations
-├── reports/
-│   └── visuals/            # Saved visualizations for reports
-├── .gitignore               # Git ignore file for system files and caches
-├── LICENSE                  # License file for the project
-├── README.md                # Project documentation
-└── requirements.txt         # Python dependencies
+COVID19_EDA_Project/ ├── data/
+│ ├── raw/ # Raw data files (unprocessed, original datasets) │ └── processed/ # Cleaned data files (after pre-processing and transformation) ├── notebooks/
+│ ├── data_cleaning.ipynb # Notebook for cleaning raw data │ ├── exploratory_analysis.ipynb # Notebook for exploratory analysis and insights │ └── visualizations.ipynb # Notebook for generating visualizations like plots and graphs ├── dashboard/ # (Optional) Files for building interactive visualizations using Dash ├── reports/ │ └── visuals/ # Saved visualizations for reports and presentations (e.g., PNG, PDF) ├── .gitignore # Git ignore file to exclude unnecessary files and directories from version control ├── LICENSE # License file to define terms for project usage and distribution ├── README.md # Project documentation (this file) └── requirements.txt # List of required Python dependencies for the project
 
 ### **Folder Details**
 - **`data/raw/`**: Raw datasets that are downloaded and need processing.
@@ -59,13 +47,31 @@ COVID19_EDA_Project/
 - **`dashboard/`**: (Optional) Files for building interactive visualizations using Dash.
 - **`reports/visuals/`**: Saved visualizations (e.g., PNG, PDF files) for reports and presentations.
 
-## Installation
 
-Follow the steps below to get your local development environment up and running.
+## Contributing
 
-### **1. Clone the Repository**
-Clone the repository to your local machine using Git:
+We welcome contributions to this project! If you'd like to contribute, please follow these guidelines:
 
-```bash
-git clone https://github.com/poudelsangam77/COVID19_EDA_Project.git
-cd COVID19_EDA_Project
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add feature'`).
+4. Push your changes to your forked repository (`git push origin feature-branch`).
+5. Open a pull request to the `main` branch of the original repository.
+
+Please ensure that your contributions follow the project’s coding style, and add tests/documentation if applicable.
+
+## License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Special thanks to the data sources used for this project:
+  - [Johns Hopkins University COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19)
+  - [Our World in Data COVID-19 Dataset](https://github.com/owid/covid-19-data)
+  - [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
+
+- Thanks to the open-source community for the Python libraries used in this project:
+  - `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, `dash`
+
+- All contributors and collaborators who made this project possible.
