@@ -17,7 +17,7 @@ The goal of this project is to provide clear insights into the **spread and impa
 - **Python**: For data processing and analysis.
   - Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`
 - **Jupyter Notebook**: For running and documenting the analysis.
-- **Dash/Plotly**: For creating interactive dashboards (optional).
+- **Dash/Plotly**: For creating interactive dashboards.
 - **Git**: For version control and collaboration.
 - **GitHub**: For repository hosting and sharing.
 
