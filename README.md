@@ -6,7 +6,7 @@ This project performs **Exploratory Data Analysis (EDA)** on global and country-
 - Understand key features of the data such as infection rates, mortality rates, and vaccination progress.
 - Identify patterns, outliers, and correlations in the dataset.
 - Create actionable insights using various plots and reports.
-  
+
 ## Project Goal
 The goal of this project is to provide clear insights into the **spread and impact of COVID-19** worldwide. Key questions addressed include:
 - What are the most affected regions by COVID-19?
@@ -37,17 +37,20 @@ This project utilizes COVID-19 datasets from various reliable sources like:
 The project structure is organized as follows:
 
 COVID19_EDA_Project/
-├── data/
-│   ├── raw/              
-│   └── processed/          
+├── data/                     
+│   ├── raw/               # Raw data files
+│   └── processed/         # Cleaned data files
 ├── notebooks/              
-├── dashboard/              
+│   ├── data_cleaning.ipynb   # Notebook for cleaning data
+│   ├── exploratory_analysis.ipynb  # Notebook for exploratory analysis
+│   └── visualizations.ipynb  # Notebook for generating visualizations
+├── dashboard/               # (Optional) Dash app files for interactive visualizations
 ├── reports/
-│   └── visuals/           
-├── .gitignore              
-├── README.md              
-└── requirements.txt        
-
+│   └── visuals/            # Saved visualizations for reports
+├── .gitignore               # Git ignore file for system files and caches
+├── LICENSE                  # License file for the project
+├── README.md                # Project documentation
+└── requirements.txt         # Python dependencies
 
 ### **Folder Details**
 - **`data/raw/`**: Raw datasets that are downloaded and need processing.
@@ -65,3 +68,4 @@ Clone the repository to your local machine using Git:
 
 ```bash
 git clone https://github.com/poudelsangam77/COVID19_EDA_Project.git
+cd COVID19_EDA_Project
