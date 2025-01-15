@@ -37,7 +37,6 @@ This project utilizes COVID-19 datasets from various reliable sources like:
 
 The project structure is organized as follows:
 
-```bash
 COVID19_EDA_Project/
 ├── data/
 │   ├── raw/               
@@ -53,7 +52,6 @@ COVID19_EDA_Project/
 ├── LICENSE                  
 ├── README.md                
 └── requirements.txt         
-
 
 
 ### Folder Details:
