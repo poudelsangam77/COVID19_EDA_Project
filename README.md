@@ -36,16 +36,22 @@ This project utilizes COVID-19 datasets from various reliable sources like:
 
 The project structure is organized as follows:
 
-COVID19_EDA_Project/ ├── data/
-│ ├── raw/ # Raw data files (unprocessed, original datasets) │ └── processed/ # Cleaned data files (after pre-processing and transformation) ├── notebooks/
-│ ├── data_cleaning.ipynb # Notebook for cleaning raw data │ ├── exploratory_analysis.ipynb # Notebook for exploratory analysis and insights │ └── visualizations.ipynb # Notebook for generating visualizations like plots and graphs ├── dashboard/ # (Optional) Files for building interactive visualizations using Dash ├── reports/ │ └── visuals/ # Saved visualizations for reports and presentations (e.g., PNG, PDF) ├── .gitignore # Git ignore file to exclude unnecessary files and directories from version control ├── LICENSE # License file to define terms for project usage and distribution ├── README.md # Project documentation (this file) └── requirements.txt # List of required Python dependencies for the project
+'''
+COVID19_EDA_Project/ ├── data/ │ ├── raw/ # Raw data files (unprocessed, original datasets) │ └── processed/ # Cleaned data files (after pre-processing and transformation) ├── notebooks/ │ ├── data_cleaning.ipynb # Notebook for cleaning raw data │ ├── exploratory_analysis.ipynb # Notebook for exploratory analysis and insights │ └── visualizations.ipynb # Notebook for generating visualizations like plots and graphs ├── dashboard/ # (Optional) Files for building interactive visualizations using Dash ├── reports/ │ └── visuals/ # Saved visualizations for reports and presentations (e.g., PNG, PDF) ├── .gitignore # Git ignore file to exclude unnecessary files and directories from version control ├── LICENSE # License file to define terms for project usage and distribution ├── README.md # Project documentation (this file) └── requirements.txt # List of required Python dependencies for the project '''
 
-### **Folder Details**
-- **`data/raw/`**: Raw datasets that are downloaded and need processing.
-- **`data/processed/`**: Cleaned and transformed data that will be used for analysis.
-- **`notebooks/`**: Jupyter notebooks that contain the code for the EDA process, visualizations, and conclusions.
-- **`dashboard/`**: (Optional) Files for building interactive visualizations using Dash.
-- **`reports/visuals/`**: Saved visualizations (e.g., PNG, PDF files) for reports and presentations.
+
+
+### Folder Details:
+- **`data/raw/`**: Contains the raw datasets that are directly sourced and need processing.
+- **`data/processed/`**: Contains cleaned and pre-processed data, ready for analysis.
+- **`notebooks/`**: Jupyter notebooks for carrying out the data analysis, cleaning, and visualizations.
+- **`dashboard/`**: Contains Dash application files (if you're creating a web-based dashboard for the project).
+- **`reports/visuals/`**: This folder stores the saved visualizations (graphs, plots, charts) for reports.
+- **`.gitignore`**: Ensures that unnecessary or temporary files are not tracked by Git (such as compiled Python files, logs, or system files).
+- **`LICENSE`**: A file that outlines the licensing terms for your project.
+- **`README.md`**: The file you are currently reading, which contains project information and guidelines.
+- **`requirements.txt`**: Lists the Python libraries that are required to run the project (you can generate this by running `pip freeze > requirements.txt`).
+
 
 
 ## Contributing
