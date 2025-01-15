@@ -22,15 +22,39 @@ The goal of this project is to provide clear insights into the **spread and impa
 - **GitHub**: For repository hosting and sharing.
 
 ## Dataset
-This project utilizes COVID-19 datasets from various reliable sources like:
-- [Johns Hopkins University COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19)
-- [Our World in Data](https://github.com/owid/covid-19-data)
-- [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
 
-### **Dataset Sources**
-- **COVID-19 confirmed cases**: Case data reported globally and at the country level.
-- **Deaths and recoveries**: Information on the number of deaths and recoveries.
-- **Vaccination data**: Global and country-wise vaccination statistics.
+This project utilizes **multiple datasets** from various reliable sources to perform an exploratory data analysis of COVID-19 trends globally and at the country level. The following datasets are used in this project:
+
+### Dataset Sources:
+1. **Johns Hopkins University COVID-19 Dataset**
+   - **Source**: [GitHub Repository - Johns Hopkins University COVID-19](https://github.com/CSSEGISandData/COVID-19)
+   - **Description**: This dataset contains daily reports of confirmed COVID-19 cases, deaths, and recoveries at a global level and by country.
+   - **Data Included**: 
+     - Confirmed cases
+     - Deaths and recoveries
+     - Geographical information (e.g., country, province)
+
+2. **Our World in Data COVID-19 Dataset**
+   - **Source**: [GitHub Repository - Our World in Data COVID-19](https://github.com/owid/covid-19-data)
+   - **Description**: This dataset provides detailed COVID-19 data on confirmed cases, deaths, and vaccination information by country.
+   - **Data Included**:
+     - Daily reported cases and deaths
+     - Vaccination data by country
+     - Demographic data and health indicators
+
+3. **COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University**
+   - **Source**: [GitHub Repository - CSSE COVID-19 Data](https://github.com/CSSEGISandData/COVID-19)
+   - **Description**: Another source from Johns Hopkins University that provides global case data, including confirmed cases, deaths, and recoveries.
+   - **Data Included**:
+     - Global case counts
+     - Country-level statistics for the spread of COVID-19
+
+### **Key Features of the Dataset**:
+- **Confirmed Cases**: The number of COVID-19 confirmed cases reported globally and at the country level.
+- **Deaths and Recoveries**: Information on the number of deaths and recoveries due to COVID-19.
+- **Vaccination Data**: Global and country-wise vaccination statistics to understand the progress of vaccination campaigns.
+- **Time Period**: The data spans from the beginning of the COVID-19 pandemic to the present, with daily updates.
+
 
 ## Folder Structure
 
