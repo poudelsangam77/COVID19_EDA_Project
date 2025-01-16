@@ -92,6 +92,27 @@ COVID19_EDA_Project/
 - **`requirements.txt`**: Lists the Python libraries that are required to run the project (you can generate this by running `pip freeze > requirements.txt`).
 
 
+## Process Involved in this Project
+
+### Data Cleaning
+
+The cleaning process involved the following steps for each dataset:
+
+1. **Handling Missing Values**: Replaced missing values with `0` in numerical columns.
+2. **Standardizing Column Names**: Renamed columns for consistency (e.g., "Country/Region" → "Country").
+3. **Ensuring Consistent Date Formats**: Ensured all date columns follow the `YYYY-MM-DD` format.
+4. **Removing Duplicates**: Checked and removed duplicate rows, if any.
+5. **Dropping Irrelevant Columns**: Removed unnecessary columns that do not contribute to the analysis.
+6. **Saving Cleaned Data**: All cleaned datasets were saved in the `data/processed/` folder for further analysis.
+
+### Cleaned Datasets:
+- `cleaned_confirmed_cases.csv`
+- `cleaned_deaths.csv`
+- `cleaned_recovered.csv`
+- `cleaned_vaccinations.csv`
+
+
+
 
 ## Contributing
 
