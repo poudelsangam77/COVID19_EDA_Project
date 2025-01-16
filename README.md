@@ -103,7 +103,6 @@ The cleaning process involved the following steps for each dataset:
 3. **Ensuring Consistent Date Formats**: Ensured all date columns follow the `YYYY-MM-DD` format.
 4. **Removing Duplicates**: Checked and removed duplicate rows, if any.
 5. **Dropping Irrelevant Columns**: Removed unnecessary columns that do not contribute to the analysis.
-6. **Saving Cleaned Data**: All cleaned datasets were saved in the `data/processed/` folder for further analysis.
 
 ### Cleaned Datasets:
 - `cleaned_confirmed_cases.csv`
@@ -112,6 +111,70 @@ The cleaning process involved the following steps for each dataset:
 - `cleaned_vaccinations.csv`
 
 
+##  EDA and Visualizations
+The following insights were drawn using data visualization techniques.
+
+###  Global Analysis
+- **Confirmed Cases Over Time**: Observed exponential growth globally with peaks during major pandemic waves.
+- **Mortality Rates**: Fluctuated by region, with some areas significantly higher.
+- **Vaccination Trends**: Developed countries showed rapid increases compared to developing nations.
+
+###  Country-Level Analysis
+- **Top 10 Affected Countries**: USA, India, and Brazil consistently led in confirmed cases and deaths.
+- **Case Fatality Rate (CFR)**: Regions like Italy and the UK showed a higher CFR during initial waves.
+
+###  Vaccination Insights
+- **Top Vaccinated Countries**: Countries like Israel, UAE, and the USA showed high vaccination rates early.
+- **Effectiveness**: Countries with higher vaccination rates showed a decline in mortality rates.
+
+---
+
+##  Key Findings
+- **Global Trends**: COVID-19 cases and deaths followed a cyclical pattern, correlating with waves of infection.
+- **Regional Variations**: Developed countries had better healthcare responses but also experienced higher initial cases due to robust testing.
+- **Vaccination Impact**: Strong evidence supports that vaccination campaigns reduced mortality rates in most regions.
+- **Case Fatality Rate**: Globally, the CFR ranged between 1%–3%, with significant variance across regions.
+
+
+
+### Dashboard
+
+An interactive dashboard has been created to visualize the COVID-19 data and provide real-time insights. The dashboard is built using **Dash/Plotly** and includes the following features:
+
+- **Global Overview**: Displays global statistics including total confirmed cases, deaths, and recoveries.
+- **Country Comparison**: Allows users to compare COVID-19 statistics between different countries.
+- **Trend Analysis**: Shows trends over time for cases, deaths, and vaccinations.
+- **Vaccination Progress**: Visualizes the progress of vaccination campaigns globally and by country.
+- **Interactive Maps**: Provides geographical representations of COVID-19 data, highlighting affected regions.
+
+#### How to Run the Dashboard
+
+1. Ensure you have all the required libraries installed. You can install them using the `requirements.txt` file:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+2. Navigate to the `dashboard/` directory:
+  ```bash
+  cd dashboard
+  ```
+
+3. Run the Dash application:
+  ```bash
+  python app.py
+  ```
+
+4. Open your web browser and go to `http://127.0.0.1:8050/` to view the dashboard.
+
+#### Dashboard Files
+
+- **`app.py`**: The main file that runs the Dash application.
+- **`callbacks.py`**: Contains callback functions for interactivity in the dashboard.
+- **`layout.py`**: Defines the layout and structure of the dashboard.
+- **`assets/`**: Contains CSS and other assets for styling the dashboard.
+
+The dashboard provides an intuitive and interactive way to explore the COVID-19 data, making it easier to derive insights and understand trends.
+6. **Saving Cleaned Data**: All cleaned datasets were saved in the `data/processed/` folder for further analysis.
 
 
 ## Contributing

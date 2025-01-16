@@ -1,13 +1,13 @@
-# Ignore Jupyter Notebook checkpoints
+# Ignoring the Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore Python bytecode files
+# Ignoring the  Python bytecode files
 __pycache__/
 *.pyc
 
-# Ignore virtual environments
+# Ignoring the  virtual environments
 venv/
 
-# Ignore system files
+# Ignoring the  system files
 .DS_Store
 Thumbs.db
