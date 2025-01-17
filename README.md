@@ -70,7 +70,10 @@ COVID19_EDA_Project/
 │   ├── data_cleaning.ipynb   
 │   ├── exploratory_analysis.ipynb  
 │   └── visualizations.ipynb  
-├── dashboard/               
+├── dashboard/
+    ├── app.py
+    ├──Procfile
+    └── runtime.txt          
 ├── reports/
 │   └── visuals/            
 ├── .gitignore               
@@ -84,7 +87,7 @@ COVID19_EDA_Project/
 - **`data/raw/`**: Contains the raw datasets that are directly sourced and need processing.
 - **`data/processed/`**: Contains cleaned and pre-processed data, ready for analysis.
 - **`notebooks/`**: Jupyter notebooks for carrying out the data analysis, cleaning, and visualizations.
-- **`dashboard/`**: Contains Dash application files (if you're creating a web-based dashboard for the project).
+- **`dashboard/`**: Contains Dash application files (app.py,procfile).
 - **`reports/visuals/`**: This folder stores the saved visualizations (graphs, plots, charts) for reports.
 - **`.gitignore`**: Ensures that unnecessary or temporary files are not tracked by Git (such as compiled Python files, logs, or system files).
 - **`LICENSE`**: A file that outlines the licensing terms for your project.
@@ -103,6 +106,7 @@ The cleaning process involved the following steps for each dataset:
 3. **Ensuring Consistent Date Formats**: Ensured all date columns follow the `YYYY-MM-DD` format.
 4. **Removing Duplicates**: Checked and removed duplicate rows, if any.
 5. **Dropping Irrelevant Columns**: Removed unnecessary columns that do not contribute to the analysis.
+6. **Saving Cleaned Data**: All cleaned datasets were saved in the `data/processed/` folder for further analysis.
 
 ### Cleaned Datasets:
 - `cleaned_confirmed_cases.csv`
@@ -175,8 +179,6 @@ An interactive dashboard has been created to visualize the COVID-19 data and pro
 - **`assets/`**: Contains CSS and other assets for styling the dashboard.
 
 The dashboard provides an intuitive and interactive way to explore the COVID-19 data, making it easier to derive insights and understand trends.
-6. **Saving Cleaned Data**: All cleaned datasets were saved in the `data/processed/` folder for further analysis.
-
 
 ## Contributing
 
