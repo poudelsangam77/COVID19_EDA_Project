@@ -17,19 +17,19 @@ def reshape_data(df, value_name):
 
 # Load and reshape datasets
 confirmed_cases = reshape_data(
-    pd.read_csv(r"data\processed\cleaned_confirmed_cases.csv"),
+    pd.read_csv(r"data/processed/cleaned_confirmed_cases.csv"),
     "Confirmed Cases",
 )
 deaths = reshape_data(
-    pd.read_csv(r"C:\Users\sanga\Documents\COVID19_EDA_Project\data\processed\cleaned_deaths.csv"),
+    pd.read_csv(r"data/processed/cleaned_deaths.csv"),
     "Deaths",
 )
 vaccinations = reshape_data(
-    pd.read_csv(r"data\processed\cleaned_vaccinations.csv"),
+    pd.read_csv(r"data/processed/cleaned_vaccinations.csv"),
     "Vaccinations",
 )
 recoveries = reshape_data(
-    pd.read_csv(r"data\processed\cleaned_recovered.csv"),
+    pd.read_csv(r"data/processed/cleaned_recovered.csv"),
     "Recoveries",
 )
 
