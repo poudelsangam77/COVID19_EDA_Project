@@ -164,7 +164,8 @@ An interactive dashboard has been created to visualize the COVID-19 data and pro
   python app.py
   ```
 
-4. Open your web browser and go to `http://127.0.0.1:8050/` to view the dashboard.
+ Open your web browser and go to `https://covid19edaproject-production.up.railway.app/` to view the dashboard.
+
 
 #### Dashboard Files
 
