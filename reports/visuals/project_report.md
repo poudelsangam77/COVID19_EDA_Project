@@ -67,7 +67,13 @@ The following insights were drawn using data visualization techniques.
 - Vaccination data does not include booster doses for all countries.
 
 ---
+## Dashboard and Interactivity
+To extend the project, an interactive dashboard is under development. It will:
+- Provide dynamic visualizations for exploring COVID-19 data.
+- Enable users to filter and compare country-level statistics interactively.
+- Present vaccination trends and their impact on case reduction.
 
+---
 ## Recommendations
 - Develop region-specific strategies for pandemic response based on data insights.
 - Strengthen vaccination programs in developing countries.
@@ -78,13 +84,6 @@ The following insights were drawn using data visualization techniques.
 ## Conclusion
 This project highlights the importance of data-driven approaches in understanding and responding to global crises like COVID-19. The insights gained through this analysis can guide decision-making and enhance preparedness for similar challenges.
 
----
-
-## Dashboard and Interactivity
-To extend the project, an interactive dashboard is under development. It will:
-- Provide dynamic visualizations for exploring COVID-19 data.
-- Enable users to filter and compare country-level statistics interactively.
-- Present vaccination trends and their impact on case reduction.
 
 ---
 
